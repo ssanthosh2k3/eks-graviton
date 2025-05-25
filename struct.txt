@@ -1,0 +1,19 @@
+eks-terraform/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── versions.tf
+├── terraform.tfvars
+└── modules/
+    ├── vpc/
+    │   ├── main.tf
+    │   ├── variables.tf
+    │   └── outputs.tf
+    ├── eks/
+    │   ├── main.tf
+    │   ├── variables.tf
+    │   └── outputs.tf
+    └── eks-workers/
+        ├── main.tf
+        ├── variables.tf
+        └── outputs.tf
